@@ -1,9 +1,9 @@
-@media screen and(min-width: 542px) {
-    .col-12 {
-        width: 100%;
+@media screen and(max-width: 575px) {
+    .row {
+        flex-direction: column;
     }
     .col-4 {
-        width: 33.33%;
+        width: 100%;
     }
 }
 * {
@@ -16,6 +16,11 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+.portfoliophoto {
+    max-width: 100%;
+    height: auto;
+    display: block:
 }
 .col-1 {
     width: 8.33%;
