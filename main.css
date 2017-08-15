@@ -1,4 +1,11 @@
-
+@media screen and(min-width: 542px) {
+    .col-12 {
+        width: 100%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+}
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
